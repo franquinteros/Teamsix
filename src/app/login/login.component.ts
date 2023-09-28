@@ -10,7 +10,7 @@ import { Router} from '@angular/router';
 export class LoginComponent {
 
     loginForm = this.formBuilder.group({
-    email: ['',Validators.required, Validators.email],
+    email: ['',[Validators.required, Validators.email]],
     password: ['',Validators.required] 
     });
 
@@ -24,7 +24,7 @@ export class LoginComponent {
 if (this.loginForm.controls["email"].value=="jk@gmail.com" 
 && this.loginForm.controls["password"].value=="123AF@")
 {
-this.router.navigateByUrl("/dashboard")
+this.router.navigateByUrl("dashboardAdmin")
 }
     }
 else{
