@@ -10,13 +10,13 @@ import { CarruselComponent } from './shared/carrusel/carrusel.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { DashboardAdminComponent } from './pages/dashboard/dashboard-admin/dashboard-admin.component';
 import { DashboardGenComponent } from './dashboard/dashboard-gen/dashboard-gen.component';
 import { PacienteComponent } from './dashboard/dashboardAdmin/paciente/paciente.component';
 import { ZonaComponent } from './dashboard/dashboardAdmin/zona/zona.component';
 import { RepporteComponent } from './dashboard/dashboardAdmin/reporte/repporte.component';
 import { LoginComponent } from './login/login.component';
-
+import { RegistrarmeComponent } from './login/registrarme/registrarme.component';
+import { RecuperarComponent } from './login/recuperar/recuperar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +25,13 @@ import { LoginComponent } from './login/login.component';
     NavComponent,
     CarruselComponent,
     DashboardComponent,
-    DashboardAdminComponent,
     DashboardGenComponent,
     PacienteComponent,
     ZonaComponent,
     RepporteComponent,
     LoginComponent,
+    RegistrarmeComponent,
+    RecuperarComponent,
   ],
   imports: [
     BrowserModule,
