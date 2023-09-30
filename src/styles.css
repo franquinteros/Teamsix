@@ -39,3 +39,23 @@ footer {
     box-shadow:10cm;
 }   
 
+.img-login {
+    border: 0px solid #000000;
+    border-radius: 5%;
+    width: 230px;
+    height: 200px;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 18%;
+    margin-top: 0px;
+    box-shadow:30cm;
+}
+
+.colegio {
+    margin-top: 10px;
+    text-align: center;
+    font-size: large;
+    color:#646464
+}
+

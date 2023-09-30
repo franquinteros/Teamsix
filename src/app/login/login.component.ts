@@ -22,8 +22,8 @@ export class LoginComponent {
   {
     if (this.loginForm.valid)
     {
-if (this.loginForm.controls["email"].value=="jk@gmail.com" 
-&& this.loginForm.controls["password"].value=="123AF@")
+if (this.loginForm.controls["email"].value=="codigoazul@gmail.com" 
+&& this.loginForm.controls["password"].value=="codigoazul")
 {
 this.router.navigateByUrl("dashboardAdmin")
 }
