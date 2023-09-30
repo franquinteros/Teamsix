@@ -1,9 +1,14 @@
+.header{
+    background-image:url("./assets/images/hospital.jpg");
+}
+
 .titulo {
     color: black;
     height: 100px;
     font-size: xx-large;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+    padding: 2%;
 }
 
 footer {
@@ -57,5 +62,32 @@ footer {
     text-align: center;
     font-size: large;
     color:#646464
+}
+
+.th{
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.tr{
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.tabla-pacientes{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.aprobar-usuarios{
+    margin-top: 30px;
+}
+
+.tabla-reporte{
+    text-align: center;
+    margin-top: 3%;
 }
 

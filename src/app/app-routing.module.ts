@@ -19,6 +19,7 @@ const routes: Routes = [
   {path:"reporte",component:RepporteComponent},
   {path:"registro",component:RegistrarmeComponent},
   {path:"recuperar",component:RecuperarComponent},
+  {path:"dashboard",component:DashboardComponent},
 ];
 
 @NgModule({
