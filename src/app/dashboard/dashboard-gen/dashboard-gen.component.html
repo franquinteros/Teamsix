@@ -1,51 +1,23 @@
+<app-header></app-header>
 <body>
     <h1>Registro de Atención Hospitalaria</h1>
 
     <div class="llamadas-recientes">
         <h2>Llamadas Recientes</h2>
-        <ul>
-            <li>Llamada 1 - 2023-09-27</li>
-            <li>Llamada 2 - 2023-09-26</li>
-            <li>Llamada 3 - 2023-09-25</li>
-        </ul>
     </div>
 
-    <label for="nombrePaciente">Nombre de Paciente:</label>
-    <input type="text" id="nombrePaciente" name="nombrePaciente" onkeyup="autocompletarPaciente()">
-    
-    <table class="tabla-pacientes">
+    <table class="table table-dark">
+        <tbody>
+            <tr class="table-active">
         <tr>
-            <th>Nombre</th>
-            <th>Zona</th>
-            <th>Habitat</th>
-            <th>Cama</th>
+            <th>Numero de llamada</th>
             <th>Fecha</th>
-            <th>Atendido</th>
         </tr>
         <tr>
-            <td>Marcos Garcia</td>
-            <td>Zona 1</td>
-            <td></td>
-            <td>Cama 101</td>
-            <td>2023-09-27</td>
-            <td>Si</td>
+            <td>01</td>
+            <td>2023-30-09</td>
         </tr>
-        <tr>
-            <td>Marcos Altero</td>
-            <td>Zona 2</td>
-            <td></td>
-            <td>Cama 121</td>
-            <td>2023-09-22</td>
-            <td>Si</td>
-        </tr>
-        <tr>
-            <td>Gabriel Perez</td>
-            <td>Zona 1</td>
-            <td></td>
-            <td>Cama 151</td>
-            <td>2023-09-10</td>
-            <td>No</td>
-        </tr>
+        </tbody>
     </table>
-    
 </body>
+<app-footer></app-footer>
