@@ -17,6 +17,7 @@ export class LoginComponent {
   constructor(private formBuilder:FormBuilder, private router:Router) {
 
   }
+
   iniciarSesion()
   {
     if (this.loginForm.valid)

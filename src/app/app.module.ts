@@ -15,7 +15,8 @@ import { PacienteComponent } from './dashboard/dashboardAdmin/paciente/paciente.
 import { ZonaComponent } from './dashboard/dashboardAdmin/zona/zona.component';
 import { RepporteComponent } from './dashboard/dashboardAdmin/reporte/repporte.component';
 import { LoginComponent } from './login/login.component';
-
+import { RegistrarmeComponent } from './login/registrarme/registrarme.component';
+import { RecuperarComponent } from './login/recuperar/recuperar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,8 @@ import { LoginComponent } from './login/login.component';
     ZonaComponent,
     RepporteComponent,
     LoginComponent,
+    RegistrarmeComponent,
+    RecuperarComponent,
   ],
   imports: [
     BrowserModule,

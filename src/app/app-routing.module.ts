@@ -6,6 +6,8 @@ import { DashboardGenComponent } from './dashboard/dashboard-gen/dashboard-gen.c
 import { PacienteComponent } from './dashboard/dashboardAdmin/paciente/paciente.component';
 import { ZonaComponent } from './dashboard/dashboardAdmin/zona/zona.component';
 import { RepporteComponent } from './dashboard/dashboardAdmin/reporte/repporte.component';
+import { RegistrarmeComponent } from './login/registrarme/registrarme.component';
+import { RecuperarComponent } from './login/recuperar/recuperar.component';
 
 const routes: Routes = [
   {path:"",redirectTo:"login",pathMatch:"full"},
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:"dashboard-gen",component:DashboardGenComponent},
   {path:"paciente",component:PacienteComponent},
   {path:"zona",component:ZonaComponent},
-  {path:"reporte",component:RepporteComponent,}
+  {path:"reporte",component:RepporteComponent},
+  {path:"registro",component:RegistrarmeComponent},
+  {path:"recuperar",component:RecuperarComponent},
 ];
 
 @NgModule({
