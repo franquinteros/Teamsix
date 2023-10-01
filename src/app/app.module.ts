@@ -17,6 +17,7 @@ import { RepporteComponent } from './dashboard/dashboardAdmin/reporte/repporte.c
 import { LoginComponent } from './login/login.component';
 import { RegistrarmeComponent } from './login/registrarme/registrarme.component';
 import { RecuperarComponent } from './login/recuperar/recuperar.component';
+import { AgregarPacienteComponent } from './dashboard/dashboardAdmin/paciente/agregar-paciente/agregar-paciente.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,7 @@ import { RecuperarComponent } from './login/recuperar/recuperar.component';
     LoginComponent,
     RegistrarmeComponent,
     RecuperarComponent,
+    AgregarPacienteComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { ZonaComponent } from './dashboard/dashboardAdmin/zona/zona.component';
 import { RepporteComponent } from './dashboard/dashboardAdmin/reporte/repporte.component';
 import { RegistrarmeComponent } from './login/registrarme/registrarme.component';
 import { RecuperarComponent } from './login/recuperar/recuperar.component';
+import { AgregarPacienteComponent } from './dashboard/dashboardAdmin/paciente/agregar-paciente/agregar-paciente.component';
 
 const routes: Routes = [
   {path:"",redirectTo:"login",pathMatch:"full"},
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:"registro",component:RegistrarmeComponent},
   {path:"recuperar",component:RecuperarComponent},
   {path:"dashboard",component:DashboardComponent},
+  {path:"agregarPaciente",component:AgregarPacienteComponent},
 ];
 
 @NgModule({
