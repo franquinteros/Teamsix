@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
-import { CarruselComponent } from './shared/carrusel/carrusel.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -18,13 +17,13 @@ import { LoginComponent } from './login/login.component';
 import { RegistrarmeComponent } from './login/registrarme/registrarme.component';
 import { RecuperarComponent } from './login/recuperar/recuperar.component';
 import { AgregarPacienteComponent } from './dashboard/dashboardAdmin/paciente/agregar-paciente/agregar-paciente.component';
+import { EscuelaComponent } from './pages/escuela/escuela.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    CarruselComponent,
     DashboardComponent,
     DashboardGenComponent,
     PacienteComponent,
@@ -34,6 +33,7 @@ import { AgregarPacienteComponent } from './dashboard/dashboardAdmin/paciente/ag
     RegistrarmeComponent,
     RecuperarComponent,
     AgregarPacienteComponent,
+    EscuelaComponent,
   ],
   imports: [
     BrowserModule,
