@@ -22,14 +22,21 @@ export class LoginComponent {
   {
     if (this.loginForm.valid)
     {
-if (this.loginForm.controls["email"].value=="codigoazul@gmail.com" 
-&& this.loginForm.controls["password"].value=="codigoazul")
+if (this.loginForm.controls["email"].value=="codigoazuladmin@gmail.com" 
+&& this.loginForm.controls["password"].value=="codigoazuladmin")
 {
 this.router.navigateByUrl("dashboardAdmin")
 }
-    }
-else{
-  alert("Error al iniciar sesion. Revise los datos requeridos y formatos de email")
+else if (this.loginForm.controls["email"].value=="codigoazulgen@gmail.com" 
+&& this.loginForm.controls["password"].value=="codigoazulgen")
+{
+this.router.navigateByUrl("dashboard-gen")
 }
-  }
+else {
+  const loginError = document.getElementById('login-error') as HTMLElement;
+  loginError.classList.remove('d-none'); 
 }
+} else {
+}
+} }
+
